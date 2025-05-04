@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Dell_3094 create successfully With industry]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-30T16:18:24 IST" name="Suite" finished-at="2025-04-30T16:18:40 IST" duration-ms="15361">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="CreateOrgTest.createOrgWithIndustryTest()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" name="createOrgWithIndustryTest" class="com.ocean.crm.organizationtest.CreateOrgTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2025-04-30T16:18:24 IST" name="Test" finished-at="2025-04-30T16:18:40 IST" duration-ms="15361">
+      <class name="com.ocean.crm.organizationtest.CreateOrgTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" started-at="2025-04-30T16:18:25 IST" name="openBrowser" finished-at="2025-04-30T16:18:28 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" started-at="2025-04-30T16:18:28 IST" name="login" finished-at="2025-04-30T16:18:31 IST" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgWithIndustryTest()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" started-at="2025-04-30T16:18:31 IST" name="createOrgWithIndustryTest" finished-at="2025-04-30T16:18:38 IST" duration-ms="7281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dell_3094 create successfully With industry]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" started-at="2025-04-30T16:18:38 IST" name="logout" finished-at="2025-04-30T16:18:39 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ocean.crm.organizationtest.CreateOrgTest@29d80d2b]" started-at="2025-04-30T16:18:39 IST" name="closeBrowser" finished-at="2025-04-30T16:18:40 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ocean.crm.organizationtest.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

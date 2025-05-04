@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="RegressionTest"/>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="com.ocean.crm.organizationtest.CreateOrgTest"/>
+      <class name="com.ocean.crm.contacttest.CreateContactTest"/>
+      <class name="com.ocean.crm.producttest.CreateProductTest"/>
+      <class name="com.ocean.crm.calendartest.AddEvent"/>
+      <class name="com.ocean.crm.campaigntest.CreateCampaignTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
